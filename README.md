@@ -9,7 +9,7 @@ Atmospheric Sensor<br/>
 <img src = "Project Photo/6.jpg" width = "200" height = "400" />
 <img src = "Project Photo/7.jpg" width = "200" height = "400" />
 <img src = "Project Photo/8.jpg" width = "200" height = "400" />
-<img src = "Project Photo/8.jpg" width = "400" height = "400" />
+<img src = "Project Photo/9.jpg" width = "400" height = "400" />
 </p>
 
 Created by E-Protocol
