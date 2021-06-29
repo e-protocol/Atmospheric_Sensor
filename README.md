@@ -31,7 +31,8 @@ It also allows to scan for any bluetooth device within the range -
 Max 30 m on open space. Shows Low Energy Bluetooth devices by placing "LE" 
 near device name. The Device is found as P-Climate Sensor(from older project). 
 Pairing pin 4444. Device can be charged fromg phone charger. 
-Project includes some photos.
+Project includes some photos. It also has a voice notifier. Notifier tells 
+current charge level by pressing "Power" button.
 ********************************************************************************
 
 Arduino part
