@@ -1,0 +1,280 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.qtproject.example"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+8-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:86:1-69
+9        android:minSdkVersion="21"
+9-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:86:11-37
+10        android:targetSdkVersion="28" />
+10-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:86:38-67
+11    <!--
+12         The following comment will be replaced upon deployment with default permissions based on the dependencies of the application.
+13         Remove the comment if you do not require these default permissions.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:5:5-67
+15-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:5:22-64
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:6:5-81
+16-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:6:22-78
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:7:5-79
+17-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:7:22-76
+18    <uses-permission android:name="android.permission.BLUETOOTH" />
+18-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:8:5-68
+18-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:8:22-65
+19    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+19-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:9:5-74
+19-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:9:22-71
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:10:5-79
+20-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:10:22-76
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:11:5-81
+21-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:11:22-78
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:12:5-65
+22-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:12:22-62
+23    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+23-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:13:5-71
+23-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:13:22-68
+24
+25    <!--
+26         The following comment will be replaced upon deployment with default features based on the dependencies of the application.
+27         Remove the comment if you do not require these default features.
+28    -->
+29    <uses-feature
+29-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:17:5-85
+30        android:name="android.hardware.camera"
+30-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:17:19-57
+31        android:required="false" />
+31-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:17:58-82
+32    <uses-feature
+32-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:18:5-95
+33        android:name="android.hardware.camera.autofocus"
+33-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:18:19-67
+34        android:required="false" />
+34-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:18:68-92
+35    <uses-feature
+35-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:19:5-89
+36        android:name="android.hardware.microphone"
+36-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:19:19-61
+37        android:required="false" />
+37-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:19:62-86
+38
+39    <supports-screens
+39-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:21:5-135
+40        android:anyDensity="true"
+40-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:21:80-105
+41        android:largeScreens="true"
+41-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:21:23-50
+42        android:normalScreens="true"
+42-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:21:51-79
+43        android:smallScreens="true" />
+43-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:21:106-133
+44
+45    <uses-permission android:name="android.permission.BLUETOOTH" />
+45-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:8:5-68
+45-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:8:22-65
+46    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+46-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:10:5-79
+46-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:10:22-76
+47
+48    <application
+48-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:22:5-84:19
+49        android:name="org.qtproject.qt5.android.bindings.QtApplication"
+49-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:22:53-116
+50        android:debuggable="true"
+51        android:extractNativeLibs="true"
+51-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:22:151-183
+52        android:hardwareAccelerated="true"
+52-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:22:18-52
+53        android:icon="@drawable/icon"
+53-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:22:184-213
+54        android:label="AtmosphericSensor" >
+54-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:22:117-150
+55        <activity
+55-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:23:9-82:20
+56            android:name="org.qtproject.qt5.android.bindings.QtActivity"
+56-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:23:189-249
+57            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+57-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:23:19-188
+58            android:label="AtmosphericSensor"
+58-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:23:250-283
+59            android:launchMode="standard"
+59-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:23:321-350
+60            android:screenOrientation="portrait" >
+60-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:23:284-320
+61            <intent-filter>
+61-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:24:13-27:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:25:17-68
+62-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:25:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:26:17-76
+64-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:26:27-74
+65            </intent-filter>
+66            <!-- Application arguments -->
+67            <!-- meta-data android:name="android.app.arguments" android:value="arg1 arg2 arg3"/ -->
+68            <!-- Application arguments -->
+69            <meta-data
+69-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:31:13-95
+70                android:name="android.app.lib_name"
+70-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:31:24-59
+71                android:value="AtmosphericSensor" />
+71-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:31:60-93
+72            <meta-data
+72-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:32:13-112
+73                android:name="android.app.qt_sources_resource_id"
+73-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:32:24-73
+74                android:resource="@array/qt_sources" />
+74-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:32:74-110
+75            <meta-data
+75-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:33:13-87
+76                android:name="android.app.repository"
+76-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:33:24-61
+77                android:value="default" />
+77-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:33:62-85
+78            <meta-data
+78-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:34:13-106
+79                android:name="android.app.qt_libs_resource_id"
+79-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:34:24-70
+80                android:resource="@array/qt_libs" />
+80-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:34:71-104
+81            <meta-data
+81-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:35:13-116
+82                android:name="android.app.bundled_libs_resource_id"
+82-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:35:24-75
+83                android:resource="@array/bundled_libs" />
+83-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:35:76-114
+84            <!-- Deploy Qt libs as part of package -->
+85            <meta-data
+85-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:37:13-91
+86                android:name="android.app.bundle_local_qt_libs"
+86-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:37:24-71
+87                android:value="1" />
+87-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:37:72-89
+88            <!-- Run with local libs -->
+89            <meta-data
+89-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:39:13-88
+90                android:name="android.app.use_local_qt_libs"
+90-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:39:24-68
+91                android:value="1" />
+91-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:39:69-86
+92            <meta-data
+92-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:40:13-100
+93                android:name="android.app.libs_prefix"
+93-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:40:24-62
+94                android:value="/data/local/tmp/qt/" />
+94-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:40:63-98
+95            <meta-data
+95-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:41:13-122
+96                android:name="android.app.load_local_libs_resource_id"
+96-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:41:24-78
+97                android:resource="@array/load_local_libs" />
+97-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:41:79-120
+98            <meta-data
+98-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:42:13-198
+99                android:name="android.app.load_local_jars"
+99-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:42:24-66
+100                android:value="jar/QtAndroid.jar:jar/QtAndroidBearer.jar:jar/QtAndroidExtras.jar:jar/QtAndroidBluetooth.jar:jar/QtMultimedia.jar" />
+100-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:42:67-196
+101            <meta-data
+101-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:43:13-208
+102                android:name="android.app.static_init_classes"
+102-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:43:24-70
+103                android:value="org.qtproject.qt5.android.bluetooth.QtBluetoothBroadcastReceiver:org.qtproject.qt5.android.multimedia.QtMultimediaUtils" />
+103-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:43:71-206
+104            <!-- Used to specify custom system library path to run with local system libs -->
+105            <!-- <meta-data android:name="android.app.system_libs_prefix" android:value="/system/lib/"/> -->
+106            <!-- Messages maps -->
+107            <meta-data
+107-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:47:13-122
+108                android:name="android.app.ministro_not_found_msg"
+108-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:47:71-120
+109                android:value="@string/ministro_not_found_msg" />
+109-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:47:24-70
+110            <meta-data
+110-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:48:13-116
+111                android:name="android.app.ministro_needed_msg"
+111-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:48:68-114
+112                android:value="@string/ministro_needed_msg" />
+112-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:48:24-67
+113            <meta-data
+113-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:49:13-108
+114                android:name="android.app.fatal_error_msg"
+114-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:49:64-106
+115                android:value="@string/fatal_error_msg" />
+115-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:49:24-63
+116            <meta-data
+116-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:50:13-132
+117                android:name="android.app.unsupported_android_version"
+117-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:50:76-130
+118                android:value="@string/unsupported_android_version" />
+118-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:50:24-75
+119            <!-- Messages maps -->
+120            <!-- Splash screen -->
+121            <!--
+122                 Orientation-specific (portrait/landscape) data is checked first. If not available for current orientation,
+123                 then android.app.splash_screen_drawable. For best results, use together with splash_screen_sticky and
+124                 use hideSplashScreen() with a fade-out animation from Qt Android Extras to hide the splash screen when you
+125                 are done populating your window with content.
+126            -->
+127            <!-- meta-data android:name="android.app.splash_screen_drawable_portrait" android:resource="@drawable/logo_portrait" / -->
+128            <!-- meta-data android:name="android.app.splash_screen_drawable_landscape" android:resource="@drawable/logo_landscape" / -->
+129            <!-- meta-data android:name="android.app.splash_screen_drawable" android:resource="@drawable/logo"/ -->
+130            <!-- meta-data android:name="android.app.splash_screen_sticky" android:value="true"/ -->
+131            <!-- Splash screen -->
+132            <!-- Background running -->
+133            <!--
+134                 Warning: changing this value to true may cause unexpected crashes if the
+135                          application still try to draw after
+136                          "applicationStateChanged(Qt::ApplicationSuspended)"
+137                          signal is sent!
+138            -->
+139            <meta-data
+139-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:67:13-93
+140                android:name="android.app.background_running"
+140-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:67:24-69
+141                android:value="false" />
+141-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:67:70-91
+142            <!-- Background running -->
+143            <!-- auto screen scale factor -->
+144            <meta-data
+144-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:70:13-99
+145                android:name="android.app.auto_screen_scale_factor"
+145-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:70:24-75
+146                android:value="false" />
+146-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:70:76-97
+147            <!-- auto screen scale factor -->
+148            <!-- extract android style -->
+149            <!--
+150                 available android:values :
+151                * default - In most cases this will be the same as "full", but it can also be something else if needed, e.g., for compatibility reasons
+152                * full - useful QWidget & Quick Controls 1 apps
+153                * minimal - useful for Quick Controls 2 apps, it is much faster than "full"
+154                * none - useful for apps that don't use any of the above Qt modules
+155            -->
+156            <meta-data
+156-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:79:13-98
+157                android:name="android.app.extract_android_style"
+157-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:79:24-72
+158                android:value="default" />
+158-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:79:73-96
+159            <!-- extract android style -->
+160            <meta-data
+160-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:81:13-120
+161                android:name="android.app.splash_screen_drawable_portrait"
+161-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:81:24-82
+162                android:resource="@drawable/splash" />
+162-->/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/AndroidManifest.xml:81:83-118
+163        </activity>
+164        <!-- For adding service(s) please check: https://wiki.qt.io/AndroidServices -->
+165    </application>
+166
+167</manifest>

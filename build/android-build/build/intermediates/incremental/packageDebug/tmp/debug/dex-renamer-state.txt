@@ -1,0 +1,7 @@
+#Tue Jun 29 15:03:40 MSK 2021
+base.1=/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+path.1=classes.dex
+base.0=/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

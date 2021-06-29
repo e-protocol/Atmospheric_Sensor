@@ -1,0 +1,59 @@
+{
+    "logs": [
+        {
+            "outputFile": "/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/res/values/apptheme.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "25",
+                        "startColumns": "4",
+                        "startOffsets": "1378",
+                        "endLines": "31",
+                        "endColumns": "12",
+                        "endOffsets": "1767"
+                    }
+                },
+                {
+                    "source": "/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/res/values/libs.xml",
+                    "from": {
+                        "startLines": "-1,-1,13,-1",
+                        "startColumns": "-1,-1,4,-1",
+                        "startOffsets": "-1,-1,347,-1",
+                        "endLines": "-1,-1,22,-1",
+                        "endColumns": "-1,-1,12,-1",
+                        "endOffsets": "-1,-1,822,-1"
+                    },
+                    "to": {
+                        "startLines": "2,5,8,18",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,109,342,822",
+                        "endLines": "4,7,17,20",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "104,337,817,933"
+                    }
+                },
+                {
+                    "source": "/opt/Qt/5.15.2/android/src/android/java/res/values/strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "21,22,23,24",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "938,1046,1168,1280",
+                        "endColumns": "107,121,111,97",
+                        "endOffsets": "1041,1163,1275,1373"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/build/intermediates/res/merged/debug/layout_splash.xml.flat",
+        "source": "/opt/Qt/5.15.2/android/src/android/java/res/layout/splash.xml"
+    },
+    {
+        "merged": "/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/build/intermediates/res/merged/debug/drawable-ldpi_icon.png.flat",
+        "source": "/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/build/intermediates/res/merged/debug/drawable-mdpi_icon.png.flat",
+        "source": "/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/build/intermediates/res/merged/debug/drawable-hdpi_icon.png.flat",
+        "source": "/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/build/intermediates/res/merged/debug/drawable-hdpi_splash.png.flat",
+        "source": "/root/Qt Projects/AtmosphericSensor/build-AtmosphericSensor-Android_Qt_5_15_2_Clang_Multi_Abi_5e87a4-Release/android-build/res/drawable-hdpi/splash.png"
+    }
+]
