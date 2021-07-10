@@ -78,8 +78,20 @@ void Sounds::initPlaylists()
 
 void Sounds::play(const QString &soundName, int number)
 { 
+    int index = -1;
+
     if(!checkPlayback(soundName))
     {
+        for(int k = 0; k < playBack.size(); k++)
+            if(playBack[k] == soundName)
+            {
+                index = k;
+                break;
+            }
+
+        if(index > -1)
+            return;
+
         if(soundName != commandsList[2])
             playBack.push_back(soundName);
 
@@ -88,8 +100,6 @@ void Sounds::play(const QString &soundName, int number)
 
     if(player->state() != QMediaPlayer::StoppedState)
         player->stop();
-
-    int index = 0;
 
     for(index = 0; index < commandsList.size(); index++)
         if(commandsList[index] == soundName)

@@ -319,13 +319,14 @@ void Bluetooth::checkVitalSigns(const QString &data)
 
     if(ok)
     {
-        if(number > tempWarningLow || number < tempWarningHigh)
+        if(number > tempWarningLow + tempMargin
+                && number < tempWarningHigh - tempMargin)
             isVitalSigns = false;
 
-        if((number <= tempWarningLow || number >= tempWarningHigh) && !isVitalSigns)
+        if(!isVitalSigns && (number <= tempWarningLow || number >= tempWarningHigh))
         {
-            isVitalSigns = true;
             soundSignal("health_critical");
+            isVitalSigns = true;
         }
     }
 }
@@ -337,10 +338,10 @@ void Bluetooth::checkChemical(const QString &data)
 
     if(ok)
     {
-        if(number < chemicalWarningLvl)
+        if(number < chemicalWarningLvl - chemicalMargin)
             isChemical = false;
 
-        if(number < chemicalCriticalLvl)
+        if(number < chemicalCriticalLvl - chemicalMargin)
             isDanger = false;
 
         if(number > chemicalWarningLvl && number < chemicalCriticalLvl && !isChemical)
@@ -363,10 +364,10 @@ void Bluetooth::checkRadiation(const QString &data)
 
     if(ok)
     {
-        if(number < radiationWarningLvl)
+        if(number < radiationWarningLvl - radiationMargin)
             isRadiation = false;
 
-        if(number < radiationCriticalLvl)
+        if(number < radiationCriticalLvl - radiationMargin)
             isDanger = false;
 
         if(number > radiationWarningLvl && number < radiationCriticalLvl && !isRadiation)
@@ -440,4 +441,5 @@ void Bluetooth::dropParameters()
     isChemical = false;
     isRadiation = false;
     isPowerCritical = false;
+    isVitalSigns = false;
 }
