@@ -322,7 +322,7 @@ void Bluetooth::checkVitalSigns(const QString &data)
         if(number > tempWarningLow || number < tempWarningHigh)
             isVitalSigns = false;
 
-        if(number <= tempWarningLow || number >= tempWarningHigh)
+        if((number <= tempWarningLow || number >= tempWarningHigh) && !isVitalSigns)
         {
             isVitalSigns = true;
             soundSignal("health_critical");
